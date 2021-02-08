@@ -1,0 +1,22 @@
+ .strMeal{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+
+}
+.food{
+    border: 1px solid yellowgreen;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+
+}
+.food-name{
+    font-size: 45px;
+    color: tomato;
+}
+.foodDetail img{
+    width: 200px;
+}
+    
